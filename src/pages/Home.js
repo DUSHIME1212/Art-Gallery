@@ -1,3 +1,10 @@
+import { Application } from '@splinetool/runtime';
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+app.load('https://prod.spline.design/2ezDVX9co2Y7phRI/scene.splinecode');
+
+
 const Home = () => {
   return (
     <div className="relative bg-white w-full overflow-hidden flex flex-col items-center justify-start tracking-[normal] text-center text-29xl text-black font-gilda-display">

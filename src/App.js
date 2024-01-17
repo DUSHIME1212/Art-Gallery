@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import {
   Routes,
   Route,
